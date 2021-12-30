@@ -12,9 +12,6 @@ cask "google-cloud-sdk"
 cask "intellij-idea"
 cask "docker"
 cask "postman"
-cask "git"
-cask "yarn"
-cask "nvm"
 
 # Utilities
 cask "toggl-track"
