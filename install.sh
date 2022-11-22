@@ -25,13 +25,13 @@ nvm install node
 npm i -g yarn
 echo '✅ Node.js installation complete \n'
 
-echo '▶️  Configuring custom Spy4x theme for Oh-my-zsh...'
-cp -R oh-my-zsh-theme/* ~/.oh-my-zsh/custom/
-echo 'ZSH_THEME="spy4x"' >> ~/.zshrc
-echo 'source $ZSH/oh-my-zsh.sh' >> ~/.zshrc
-mkdir ~/projects && cd ~/projects
-echo 'cd ~/projects' >> ~/.zshrc # Set ~/projects as default dir to open in terminal
-source ~/.zshrc
-echo '✅ Configuration complete \n'
+# echo '▶️  Configuring custom Spy4x theme for Oh-my-zsh...'
+# cp -R oh-my-zsh-theme/* ~/.oh-my-zsh/custom/
+# echo 'ZSH_THEME="spy4x"' >> ~/.zshrc
+# echo 'source $ZSH/oh-my-zsh.sh' >> ~/.zshrc
+# mkdir ~/projects && cd ~/projects
+# echo 'cd ~/projects' >> ~/.zshrc # Set ~/projects as default dir to open in terminal
+# source ~/.zshrc
+# echo '✅ Configuration complete \n'
 
 echo '🎉 If you see this message, then its all done 🎉 \n\n\n'
